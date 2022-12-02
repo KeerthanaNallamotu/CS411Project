@@ -1,7 +1,6 @@
 absl-py==1.0.0
 addict==2.4.0
 appdirs==1.4.4
-asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
 astunparse==1.6.3
 async-generator==1.10
 attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1620387926260/work
