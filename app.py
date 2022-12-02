@@ -11,7 +11,7 @@ app = Flask(__name__)
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
-app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root:abduabdu@127.0.0.1:3306/dining'
+# app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root:abduabdu@127.0.0.1:3306/dining'
 # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
