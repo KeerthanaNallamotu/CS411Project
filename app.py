@@ -136,7 +136,7 @@ def adbp():
     if advprogform.validate_on_submit():
         mealid = advprogform.mealID.data
 
-        cursor.callproc('checkForRemovableMeal', [mealid])
+        cursor.callproc('checkForRemovableMeal', [mealid, out])
 
         for out in cursor.stored_results():
             if out:
