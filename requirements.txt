@@ -18,7 +18,6 @@ brotlipy==0.7.0
 bs4==0.0.1
 cachetools==4.2.4
 certifi==2021.10.8
-cffi @ file:///opt/concourse/worker/volumes/live/976f8942-f51d-4f0e-7352-2a10f0820d0e/volume/cffi_1625814703974/work
 chardet @ file:///opt/concourse/worker/volumes/live/7e1102c4-8702-40f2-63d6-f260ce5f85e4/volume/chardet_1607706831384/work
 click==8.0.1
 colorama==0.4.4
