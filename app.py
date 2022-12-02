@@ -16,7 +16,7 @@ app.config['SECRET_KEY'] = SECRET_KEY
 # app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root:abduabdu@127.0.0.1:3306/dining'
 # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-db = SQLAlchemy(app)
+# db = SQLAlchemy(app)
 
 mysql = MySQL()
 mysql.init_app(app)
