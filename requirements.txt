@@ -14,7 +14,7 @@ cachetools==4.2.4
 certifi==2021.10.8
 click==8.0.1
 colorama==0.4.4
-conda==4.3.16
+conda==4.3.13
 configparser==5.2.0
 crayons==0.4.0
 cycler==0.10.0
@@ -68,7 +68,7 @@ mongoengine==0.24.0
 nltk==3.7
 numpy==1.21.1
 oauthlib==3.1.1
-open3d==0.15.1
+open3d==0.16.0
 opendatasets==0.1.22
 opt-einsum==3.3.0
 packaging==20.0
