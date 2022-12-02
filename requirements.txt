@@ -1,7 +1,6 @@
 absl-py==1.0.0
 addict==2.4.0
 appdirs==1.4.4
-appnope @ file:///Users/runner/miniforge3/conda-bld/appnope_1610094673755/work
 argon2-cffi @ file:///Users/runner/miniforge3/conda-bld/argon2-cffi_1625821234041/work
 asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
 astunparse==1.6.3
