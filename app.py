@@ -138,7 +138,7 @@ def adbp():
 
         out = 0
 
-        cursor.callproc('checkForRemovableMeal5', [mealid, out])
+        cursor.callproc('checkForRemovableMeals', [mealid, out])
 
         for out in cursor.stored_results():
             if out:
