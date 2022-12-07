@@ -139,7 +139,7 @@ def adbp():
         can_del = False
         students_starved = 0
 
-        cursor.callproc('checkForRemovableMeals', [mealid, can_del, students_starved])
+        cursor.callproc('checkForRemovable', [mealid, can_del, students_starved])
 
         # for out in cursor.stored_results():
         #     if out:
