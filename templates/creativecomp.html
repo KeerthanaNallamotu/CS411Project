@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creative Component Main</title>
+  </head>
+
+    <div>
+
+      <!--TODO: CHANGE HEADER NAME RELATIVE TO ADVANCED PROGRAM-->
+      <h2>Directions</h2>
+
+      <!--delete-->
+      <form method="POST" class="creativecomp" novalidate="">
+        <div class="form-group">
+
+        {{form.hidden_tag()}}
+
+        {{form.street.label() }}
+        {{form.street(class="form-control",placeholder="Required")}}
+
+        {{form.city.label() }}
+        {{form.city(class="form-control",placeholder="Required")}}
+
+        {{form.state.label() }}
+        {{form.state(class="form-control")}}
+
+        {{form.postalcode.label() }}
+        {{form.postalcode(class="form-control",placeholder="Required")}}
+
+        {{form.dorm.label() }}
+        {{form.dorm(class="form-control",placeholder="Required")}}
+
+        {{form.transit.label() }}
+        {{form.transit(class="form-control",placeholder="Required")}}
+
+        <div class="form-group">
+
+        <div class="form-group m-0">
+							
+            {{form.submitted(class = "btn btn-block btn-info")}}
+        </div>
+      <br /><br />
+    </div>
+  </body>
+</html>
