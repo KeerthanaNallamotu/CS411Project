@@ -8,6 +8,7 @@ from sqlalchemy import create_engine
 import os
 import requests
 import folium
+import pandas as pd
 
 app = Flask(__name__)
 SECRET_KEY = os.urandom(32)
