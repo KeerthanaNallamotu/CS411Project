@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search Main</title>
+  </head>
+
+  <body>
+    <div>
+      <h2>Search Operations:</h2>
+
+      <!--search-->
+      <form method="POST" class="search" novalidate="">
+        <div class="form-group">
+
+        {{form.hidden_tag()}}
+
+        {{form.studentRestriction.label() }}
+        {{form.studentRestriction(class="form-control",placeholder="Required")}}
+
+        <div class="form-group">
+
+        <div class="form-group m-0">
+							
+            {{form.submitted(class = "btn btn-block btn-info")}}
+        </div>
+      </form>
+      <br /><br />
+    </div>
+    <br /><br />
+
+    
+  </body>
+</html>

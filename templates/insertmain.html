@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Insert Main</title>
+  </head>
+
+    <div>
+      <h2>Insert Student:</h2>
+      <!--insert-->
+      <form method="POST" class="insert" novalidate="">
+        <div class="form-group">
+
+        {{form.hidden_tag()}}
+
+        {{form.studentID.label() }}
+        {{form.studentID(class="form-control",placeholder="Required")}}
+        {{form.studentName.label() }}
+        {{form.studentName(class="form-control", placeholder="Required")}}
+        {{form.studentRestriction.label() }}
+        {{form.studentRestriction(class="form-control", placeholder="Required")}}
+
+        <div class="form-group">
+
+        <div class="form-group m-0">
+							
+            {{form.submitted(class = "btn btn-block btn-info")}}
+        </div>
+
+      </form>
+      <br /><br />
+    </div>
+  </body>
+</html>
