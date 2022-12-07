@@ -247,7 +247,7 @@ def creative_comp():
         response2 = requests.request("GET", url2, headers=headers2, params=querystring2)
         
         m = create_map(response2)
-        m.save('./route_map.html')
+        m.save('./templates/route_map.html')
 
         return render_template('route_map.html')
     return render_template('creativecomp.html', form = searchform)
