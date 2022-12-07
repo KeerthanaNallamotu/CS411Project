@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creative Component Main</title>
+  </head>
+
+    <div>
+
+      <!--TODO: CHANGE HEADER NAME RELATIVE TO ADVANCED PROGRAM-->
+      <h2>Header:</h2>
+
+      <!--delete-->
+      <form method="POST" class="creativecomp" novalidate="">
+        <div class="form-group">
+
+        {{form.hidden_tag()}}
+
+        {{form.studentID.label() }}
+        {{form.studentID(class="form-control",placeholder="Required")}}
+
+        {{form.studentName.label() }}
+        {{form.studentName(class="form-control",placeholder="Required")}}
+
+        {{form.prefCuisine.label() }}
+        {{form.prefCuisine(class="form-control")}}
+
+        <div class="form-group">
+
+        <div class="form-group m-0">
+							
+            {{form.submitted(class = "btn btn-block btn-info")}}
+        </div>
+      <br /><br />
+    </div>
+  </body>
+</html>

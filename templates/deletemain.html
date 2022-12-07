@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Delete Main</title>
+  </head>
+
+    <div>
+      <h2>Delete Student:</h2>
+      <!--delete-->
+      <form method="POST" class="delete" novalidate="">
+        <div class="form-group">
+
+        {{form.hidden_tag()}}
+
+        {{form.studentID.label() }}
+        {{form.studentID(class="form-control",placeholder="Required")}}
+
+        <div class="form-group">
+
+        <div class="form-group m-0">
+							
+            {{form.submitted(class = "btn btn-block btn-info")}}
+        </div>
+      <br /><br />
+    </div>
+  </body>
+</html>
