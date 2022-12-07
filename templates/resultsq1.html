@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search Results</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Search Results:</h1>
+
+    <h2>Search Operation: Dining Halls with Overlapping Menus</h2>
+    <table>
+      <tr>
+        <th>Dining Hall</th>
+      </tr>
+
+      {% for row in data %}
+        <tr>
+        {% for d in row %}
+            <td>{{ d }}</td>
+        {% endfor %}
+        </tr>
+      {% endfor %}
+    </table>
+    <br /><br />
+
+  </body>
+</html>
