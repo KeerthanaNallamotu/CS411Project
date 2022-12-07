@@ -136,7 +136,7 @@ def adbp():
     if advprogform.validate_on_submit():
         mealid = advprogform.mealID.data
 
-        can_del = False
+        can_del = True
         students_starved = 0
 
         cursor.callproc('checkForRemovable', [mealid, can_del, students_starved])
