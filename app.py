@@ -154,7 +154,7 @@ def adbp():
         mealid = advprogform.mealID.data
 
         can_del = True
-        students_starved = 0
+        students_starved = 1
 
         result_args = cursor.callproc('test2', [mealid, can_del, students_starved])
 
