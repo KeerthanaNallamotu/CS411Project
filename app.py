@@ -207,7 +207,7 @@ def create_map(response):
     ne = df[['Lat', 'Lon']].max().values.tolist()
 
     folium.map.Marker(
-        [34.0302, -118.2352],
+        [40.11, -88.23],
         icon=DivIcon(
             icon_size=(250,36),
             icon_anchor=(0,0),
