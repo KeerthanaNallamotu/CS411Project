@@ -156,7 +156,7 @@ def adbp():
         can_del = True
         students_starved = 0
 
-        result_args = cursor.callproc('checkForRemovable', [mealid, can_del, students_starved])
+        result_args = cursor.callproc('test', [mealid, can_del, students_starved])
 
         # for out in cursor.stored_results():
         #     if out:
